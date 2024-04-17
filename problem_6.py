@@ -1,8 +1,8 @@
 def ROI():
-    annualprofit=float(input("Annual Site profit: "))
+    annualprofit=int(input("Annual Site profit: "))
     ccr=float(input("Current Conversion Rate: "))
     icr=float(input("Improved Conversion RAte: "))
-    ic=float(input("Improvement Cost: "))
+    ic=int(input("Improvement Cost: "))
     epl=float(input("Expected Project life (in years): "))
     i=0.05
     # fgp= Future Gain From Improvement
