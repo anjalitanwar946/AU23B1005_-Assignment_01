@@ -1,8 +1,8 @@
 def get_order():
     orders=["momos","maggi","pasta"]
-    order=0
-    for order in reversed(orders):
-        print(f"preparing your {order}")
+    i=0
+    for i in reversed(orders):
+        print(f"preparing your {i}")
       
     print("Following order has been Dispatvhed")
 
