@@ -1,5 +1,5 @@
 def ROI():
-    annualprofit=int(input("Annual Site profit: "))
+    annualprofit=int(input("Amnual Site profit: "))
     ccr=float(input("Current Conversion Rate: "))
     icr=float(input("Improved Conversion RAte: "))
     ic=int(input("Improvement Cost: "))
@@ -14,10 +14,10 @@ def ROI():
     # agi = Annual gain From Improvement
     agi=tgi/epl
 
-    annual_ROI=agi/ic
-    total_ROI=tgi/ic
+    annual_roi=agi/ic
+    total_roi=tgi/ic
 
-    print("Annual ROI:", annual_ROI)
-    print("Total ROI:", total_ROI)
+    print("Annual ROI:", annual_roi)
+    print("Total ROI:", total_roi)
 
 ROI()
