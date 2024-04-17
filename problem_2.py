@@ -4,7 +4,7 @@ def Get_name():
 
 def get_tshirt():
     size=["s","m","l","xl"]
-    brands=["Prada","LV","Being HUman","Zudio","Balanciaga"]
+    brands=["Prada","LV","Gucci","Zudio","Balanciaga"]
     user=Get_name()
     print("BRANDS\n","Prada\n", "LV\n", "Gucci\n", "Zudio\n", "Balanciaga")
     brand_name= input("T-shirt brand you are looking for: ")
